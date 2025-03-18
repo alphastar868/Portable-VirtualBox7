@@ -1708,10 +1708,10 @@ Func UseSettings ()
     FileDelete (@ScriptDir&"\app64\*.iso")
   EndIf
 
-  If DirExists (@ScriptDir&"\temp") Then
+  If FileExists (@ScriptDir&"\temp") Then
     DirRemove (@ScriptDir&"\temp", 1)
-    FileDelete (@ScriptDir&"\virtualbox.exe")
-    FileDelete (@ScriptDir&"\extension")
+    FileDelete (@ScriptDir&"\VirtualBox.exe")
+    FileDelete (@ScriptDir&"\Extension")
   EndIf
 
   If GUICtrlRead ($Checkbox130) = $GUI_CHECKED Then
