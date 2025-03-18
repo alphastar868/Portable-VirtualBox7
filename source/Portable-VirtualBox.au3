@@ -43,7 +43,7 @@ TraySetClick (16)
 TraySetState ()
 TraySetToolTip ("Portable-VirtualBox7")
 
-Global $version = "7.0.12.2"
+Global $version = "7.1.7.167984"
 Global $var1 = @ScriptDir&"\data\settings\settings.ini"
 Global $var2 = @ScriptDir&"\data\language\"
 Global $lng = IniRead ($var1, "language", "key", "NotFound")
