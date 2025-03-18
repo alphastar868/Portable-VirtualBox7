@@ -1708,7 +1708,7 @@ Func UseSettings ()
     FileDelete (@ScriptDir&"\app64\*.iso")
   EndIf
 
-  If FileExists (@ScriptDir&"\temp") Then
+  If DirExists (@ScriptDir&"\temp") Then
     DirRemove (@ScriptDir&"\temp", 1)
     FileDelete (@ScriptDir&"\virtualbox.exe")
     FileDelete (@ScriptDir&"\extension")
