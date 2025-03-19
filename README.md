@@ -3,7 +3,7 @@ Portable-VirtualBox7
 
 Portable-VirtualBox7 is a free and open source software tool that lets you run any operating system from a USB stick without separate installation.
 
-CURRENT VERSION: Portable-VirtualBox7 v7.1.7 Testbuild 167984
+CURRENT VERSION: Portable-VirtualBox7 v7.1.7 Testbuild 167994
 
 This version/fork allows for the use of the latest versions of VirtualBox.
 Currently running version: VirtualBox v7.1.7 Testbuild 167984
